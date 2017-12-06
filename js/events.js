@@ -11,6 +11,14 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('form').on("keydown", function(){
+    if (key.which == 71) {
+      alert('you have pressed the G key')
+    }
+  });
+}
+
 $(document).ready(function(){
 
 // call functions here
